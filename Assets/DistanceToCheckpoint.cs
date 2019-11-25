@@ -22,7 +22,7 @@ public class DistanceToCheckpoint : MonoBehaviour
     void Update()
     {
         currentDistance = (checkpoint.transform.position - transform.position).magnitude;
-        currentDistance = Mathf.RoundToInt(currentDistance);
+        currentDistance = Mathf.RoundToInt(currentDistance)/5;
         
         distanceText.text = currentDistance.ToString() + " M TO FINISH";
     }

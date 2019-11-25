@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/CindysAsset/Scenes/CindyHalloween.unity
     guid: e18a907b3468e445ab142a139bc20489
+  - enabled: 1
+    path: Assets/CindysAsset/Scenes/CindyChristmas.unity
+    guid: 1ec8d054166ff49f5a156a71faee9b94
   m_configObjects: {}
