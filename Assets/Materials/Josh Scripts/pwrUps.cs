@@ -7,6 +7,7 @@ public class pwrUps : MonoBehaviour
     public CountdownScript countdownScript;
     public GameObject winScreen;
     public AudioClip audiosource;
+    public float timeUpAmount;
 
     // Start is called before the first frame update
     void Start()
@@ -24,7 +25,7 @@ public class pwrUps : MonoBehaviour
     {
         if (other.gameObject.tag == "timeUp")
         {
-            countdownScript.timer += 5.0f;
+            countdownScript.timer += timeUpAmount;
             Debug.Log("Time Increased!");
            
         }
