@@ -9,21 +9,21 @@ public class DistanceToCheckpoint : MonoBehaviour
 
     [SerializeField] private Text distanceText;
 
-    private float distance;
-    private float currentDistance;
+    //private float distance;
+    public float currentDistance;
 
     // Start is called before the first frame update
     void Start()
     {
-        distance = (checkpoint.transform.position - transform.position).magnitude;
+        //distance = (checkpoint.transform.position - transform.position).magnitude;
     }
 
     // Update is called once per frame
     void Update()
     {
         currentDistance = (checkpoint.transform.position - transform.position).magnitude;
-        currentDistance = Mathf.RoundToInt(distance);
+        currentDistance = Mathf.RoundToInt(currentDistance);
         
-        distanceText.text = distance.ToString() + " M TO FINISH";
+        distanceText.text = currentDistance.ToString() + " M TO FINISH";
     }
 }
