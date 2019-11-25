@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TutorialLevel.unity
     guid: ce8130cfb4c70604289cfc87b1496763
+  - enabled: 1
+    path: Assets/CindysAsset/Scenes/CindyVDay.unity
+    guid: d9459470c4cac410e8f52bba96e565f8
+  - enabled: 1
+    path: Assets/CindysAsset/Scenes/CindyHalloween.unity
+    guid: e18a907b3468e445ab142a139bc20489
   m_configObjects: {}
