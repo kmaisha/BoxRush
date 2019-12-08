@@ -1,0 +1,321 @@
+fileFormatVersion: 2
+guid: c4e973b656d6e460ab1b75d3fc7dfa36
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: group
+    100002: pasted__group2
+    100004: pasted__pasted__polySurface18
+    100006: pasted__pasted__polySurface18 1
+    100008: pasted__pasted__polySurface19
+    100010: pasted__pasted__polySurface8
+    100012: pCube1
+    100014: pCube2
+    100016: //RootNode
+    100018: polySurface1
+    100020: polySurface2
+    100022: polySurface5
+    100024: polySurface6
+    100026: transform1
+    100028: transform2
+    100030: transform3
+    100032: transform4
+    100034: transform5
+    400000: group
+    400002: pasted__group2
+    400004: pasted__pasted__polySurface18
+    400006: pasted__pasted__polySurface18 1
+    400008: pasted__pasted__polySurface19
+    400010: pasted__pasted__polySurface8
+    400012: pCube1
+    400014: pCube2
+    400016: //RootNode
+    400018: polySurface1
+    400020: polySurface2
+    400022: polySurface5
+    400024: polySurface6
+    400026: transform1
+    400028: transform2
+    400030: transform3
+    400032: transform4
+    400034: transform5
+    2100000: pasted__pasted__lambert4
+    2100002: lambert3
+    2100004: lambert4
+    2300000: polySurface1
+    2300002: polySurface2
+    2300004: polySurface5
+    2300006: polySurface6
+    3300000: polySurface1
+    3300002: polySurface2
+    3300004: polySurface5
+    3300006: polySurface6
+    4300000: polySurface1
+    4300002: polySurface2
+    4300004: polySurface5
+    4300006: polySurface6
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'LeftUpperLeg' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: group
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__group2
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__pasted__polySurface8
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__pasted__polySurface19
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__pasted__polySurface18 1
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: transform4
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: transform3
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: PLEASEPLEASE(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube1
+      parentName: PLEASEPLEASE(Clone)
+      position: {x: -0, y: 0.055932775, z: -0.018706843}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 6.907438, y: 6.907438, z: 6.907438}
+    - name: transform1
+      parentName: pCube1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube2
+      parentName: PLEASEPLEASE(Clone)
+      position: {x: -0, y: 0.101002224, z: -0.018706843}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.5906341, y: 1.5906341, z: 1.5906341}
+    - name: transform2
+      parentName: pCube2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group
+      parentName: PLEASEPLEASE(Clone)
+      position: {x: -0.0025825186, y: 0.023119224, z: -0.020637998}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__group2
+      parentName: group
+      position: {x: -0, y: -0.1112282, z: -2.6645352e-17}
+      rotation: {x: -0.015307912, y: -0, z: 0.31158906, w: 0.9500936}
+      scale: {x: 0.09052949, y: 0.09052949, z: 0.09052949}
+    - name: pasted__pasted__polySurface8
+      parentName: pasted__group2
+      position: {x: 0.4269181, y: 0.21595323, z: 0.020973856}
+      rotation: {x: 0.015292664, y: 0.0039930646, z: -0.42183456, w: 0.9065351}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pasted__polySurface18 1
+      parentName: pasted__pasted__polySurface8
+      position: {x: 0.056369703, y: 1.0126873, z: -0.020973856}
+      rotation: {x: -0.0042521437, y: 0.01251906, z: 0.27585673, w: 0.9611079}
+      scale: {x: 0.80737174, y: 0.80737174, z: 0.80737174}
+    - name: transform4
+      parentName: pasted__pasted__polySurface18 1
+      position: {x: 0.4269203, y: -0.3097517, z: 0.020637998}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pasted__polySurface19
+      parentName: pasted__pasted__polySurface8
+      position: {x: -0.8429678, y: 1.0126873, z: -0.020973856}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.80737174, y: 0.80737174, z: 0.80737174}
+    - name: transform3
+      parentName: pasted__pasted__polySurface19
+      position: {x: 0.4269203, y: -0.3097517, z: 0.020637998}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pasted__polySurface18
+      parentName: PLEASEPLEASE(Clone)
+      position: {x: 0.000461069, y: 0.053728707, z: -0.018706843}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface1
+      parentName: pasted__pasted__polySurface18
+      position: {x: 0.040708207, y: -0.030609485, z: -0.0019311554}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface2
+      parentName: pasted__pasted__polySurface18
+      position: {x: -0.040708356, y: -0.030609485, z: -0.0019311554}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform5
+      parentName: pasted__pasted__polySurface18
+      position: {x: -0.000461069, y: -0.053728707, z: 0.018706843}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface5
+      parentName: pasted__pasted__polySurface18
+      position: {x: 0.00024831507, y: 0.047273517, z: 0.0000000016816496}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface6
+      parentName: pasted__pasted__polySurface18
+      position: {x: -0.00038389678, y: 0.0056028673, z: -7.0253625e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

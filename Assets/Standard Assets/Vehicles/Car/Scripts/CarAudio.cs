@@ -178,7 +178,7 @@ namespace UnityStandardAssets.Vehicles.Car
         {
             if (other.gameObject.tag == "finish")
             {
-                StopSound();
+                Destroy(GetComponent<AudioSource>());
             }
         }
 

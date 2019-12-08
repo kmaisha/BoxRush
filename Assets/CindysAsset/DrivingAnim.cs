@@ -16,14 +16,15 @@ public class DrivingAnim : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.UpArrow)) 
+        if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W)) 
         {
-            anim.SetTrigger("Driving"); 
+        //  anim.SetTrigger("Driving");
+           anim.Play("Driving");
             }
-    
-   else if (Input.GetKeyUp(KeyCode.UpArrow))
+        if (Input.GetKeyUp(KeyCode.UpArrow) || Input.GetKeyUp(KeyCode.W))
         {
-            anim.ResetTrigger("Driving");
+            // anim.ResetTrigger("Driving");
+            anim.Play("Rest");
         }
     }   
 }
