@@ -21,6 +21,7 @@ public class PauseMenu : MonoBehaviour
             {
                 pauseMenu.SetActive(true);
                 Time.timeScale = 0.0f;
+
             }
             
 
@@ -28,7 +29,32 @@ public class PauseMenu : MonoBehaviour
             {
                 pauseMenu.SetActive(false);
                 Time.timeScale = 1.0f;
-            } 
+            }
+
+        }
+
+
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            Application.LoadLevel(2);
+        }
+
+        else if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            Application.LoadLevel(3);
+        }
+
+        else if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            Application.LoadLevel(4);
+        }
+
+        else if (Input.GetKeyDown(KeyCode.Alpha4))
+        {
+            Application.LoadLevel(5);
         }
     }
+
+
+
 }

@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -7,7 +8,9 @@ public class CountdownScript : MonoBehaviour
 {
     public Text uiText;
     public float mainTimer;
-    public GameObject gameOverScreen; 
+    public GameObject gameOverScreen;
+    public GameObject gameMusic;
+
 
     public float timer;
     private bool canCount = true;
@@ -21,7 +24,7 @@ public class CountdownScript : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+public  void Update()
     {
         if (timer >= 0.0f && canCount)
         {
@@ -41,9 +44,11 @@ public class CountdownScript : MonoBehaviour
         {
             Time.timeScale = 0.0f;
             gameOverScreen.SetActive(true);
+            gameMusic.SetActive(false);
+
             uiText.text = "";
         }
     }
 
-    
+
 }

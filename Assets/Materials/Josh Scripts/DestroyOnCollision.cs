@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class DestroyOnCollision : MonoBehaviour
 {
+    public AudioSource yah;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,8 +21,9 @@ public class DestroyOnCollision : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
+            yah.Play();
             Debug.Log("Hit Player!");
-            Destroy(gameObject, 2f);  
+            Destroy(gameObject, 0.5f);  
         }
     }
 }
